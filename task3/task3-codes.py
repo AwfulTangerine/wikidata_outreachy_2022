@@ -54,6 +54,9 @@ def get_bibcode_url(qid):
 
 # 2. Designed the function to clean author information in bibcode
 def get_bibtex_author(qid):
+    '''
+    Returns a big list with each author name stored a small list inside.
+    '''
     # Fetch bibtex string from the url, using BeautifulSoup library
     loaded_url = urllib.request.urlopen(get_bibcode_url(qid))
     soup = BeautifulSoup(loaded_url, 'html.parser')
@@ -81,7 +84,7 @@ def add_qualifiers(author, pid, target):
         print("Qualifier already existed.")
     return 1
 
-# 3.3 The main mathcer function
+# 3.3 The main matcher function
 def author_name_matcher(qid):
     article_item = pywikibot.ItemPage(repo, qid)
     claims = article_item.get(u'claims')
