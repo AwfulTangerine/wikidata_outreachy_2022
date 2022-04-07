@@ -1,0 +1,42 @@
+# Outputs:
+
+For author 1, Wikidata stated as: Simone Ieva
+BiBTeX stated as: Ieva, S.
+Sleeping for 6.6 seconds, 2022-04-08 02:13:56
+Sleeping for 9.4 seconds, 2022-04-08 02:14:03
+For author 9, Wikidata stated as: A. Rossi
+BiBTeX stated as: Rossi, A.
+Sleeping for 9.2 seconds, 2022-04-08 02:14:13
+Sleeping for 9.4 seconds, 2022-04-08 02:14:23
+For author 2, Wikidata stated as: Elisabetta Dotto
+BiBTeX stated as: Dotto, E.
+Sleeping for 9.0 seconds, 2022-04-08 02:14:33
+Sleeping for 9.4 seconds, 2022-04-08 02:14:43
+For author 3, Wikidata stated as: D. Perna
+BiBTeX stated as: Perna, D.
+Sleeping for 9.4 seconds, 2022-04-08 02:14:53
+Sleeping for 9.5 seconds, 2022-04-08 02:15:03
+For author 4, Wikidata stated as: M. A. Barucci
+BiBTeX stated as: Barucci, M.~A.
+Sleeping for 9.4 seconds, 2022-04-08 02:15:13
+Sleeping for 9.4 seconds, 2022-04-08 02:15:23
+For author 5, Wikidata stated as: F. Bernardi
+BiBTeX stated as: Bernardi, F.
+Sleeping for 9.4 seconds, 2022-04-08 02:15:33
+Sleeping for 9.5 seconds, 2022-04-08 02:15:43
+For author 6, Wikidata stated as: S. Fornasier
+BiBTeX stated as: Fornasier, S.
+Sleeping for 9.4 seconds, 2022-04-08 02:15:53
+Sleeping for 9.4 seconds, 2022-04-08 02:16:03
+For author 7, Wikidata stated as: F. De Luise
+BiBTeX stated as: De Luise, F.
+Sleeping for 9.4 seconds, 2022-04-08 02:16:13
+Sleeping for 9.4 seconds, 2022-04-08 02:16:23
+For author 8, Wikidata stated as: E. Perozzi
+BiBTeX stated as: Perozzi, E.
+Sleeping for 9.4 seconds, 2022-04-08 02:16:33
+Sleeping for 9.5 seconds, 2022-04-08 02:16:43
+For author 10, Wikidata stated as: J. R. Brucato
+BiBTeX stated as: Brucato, J.~R.
+Sleeping for 9.4 seconds, 2022-04-08 02:16:53
+Sleeping for 9.3 seconds, 2022-04-08 02:17:03
