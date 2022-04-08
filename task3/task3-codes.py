@@ -35,12 +35,13 @@ def get_bibcode_url(qid):
         print("No ADS bibcode identifiers stored on the item page.")
         print("Directly fetch bibcode on ADS official website:")
         # Use NASA's ADS API to search bibcode by article's title,
-        # developed based on ADS official documentation. See: https://github.com/adsabs/adsabs-dev-api/blob/master/examples/search_and_export.ipynb 
+        # Ref: https://github.com/adsabs/adsabs-dev-api/blob/master/examples/search_and_export.ipynb 
         token = "GWyxadCns4nOvfDDthxDP4NloEXkTuWzamSMqPo8"
         query = article_topic_extractor(qid)
         encoded_query = urlencode({'q': query, 'fl': 'bibcode'})
         try:
-            results = requests.get("https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query), headers={'Authorization': 'Bearer ' + token})
+            results = requests.get("https://api.adsabs.harvard.edu/v1/search/query?{}".format(encoded_query), 
+                                   headers={'Authorization': 'Bearer ' + token})
             fetched_bibcode = list(results.json()['response']['docs'][0].values())[0]
         except:
             print("No articles found in ADS database.")
@@ -107,6 +108,7 @@ def author_name_matcher(qid):
         except:
             author_name_string = author.getTarget()
             print(f"For author {serial(author)}, Wikidata stated as: {author_name_string}")
+        # Match the Wikidata author name with BibTeX author info using serial numbers
         for i in range(0,10):
             if (i == (serial(author)-1)):
                 print("BiBTeX stated as: " + str(bibtex_author[i])[1:-1].replace("'",""))
