@@ -20,10 +20,9 @@ For this task (https://phabricator.wikimedia.org/T301737), I designed functions 
 Through this script, we can detect author first & last names based on BiBTeX information, by simply inputting the Q number of article item pages. Besides https://ui.adsabs.harvard.edu/abs/2014A%26A...569A..59I/abstract, I tested in 8 extra astronomical articles and the script works fine.
 
 
-## Further thoughts on contributing
-While working on task 3, I have found several possible directions to further contribute to this task & the project as a whole.
-1) A easier-to-maintain method to extract structurized author info (and any other useful info about the article) in bibcode. 
-- The methods I tried in this task include: 
+## My trials to realize this contribution
+While working on task 3, I have tried various methods to realize different parts of this task.
+- The methods I tried for fetching the bibcodes include: 
     - Beautiful Soup + str.split(): The method I eventually used in current script. It was too fragile to be maintained, possibly break down and not easy to identify the faults, if error occured.
     - Regular Expressions: The method I've tried to learn, but due to the complexity of the bibcode text, it is also not easy to maintain and detect errors. However, comparing to split(), it is more Pythonic.
     - Other Python libs - bibtexparser (https://bibtexparser.readthedocs.io) and parse: The disadvantages are the same as the other two methods. PS: the libraries are not used by many people in these days, so we might face unexpected errors.
@@ -33,5 +32,4 @@ While working on task 3, I have found several possible directions to further con
     -  Some may put last names in {} while others do not.
     -  The amount & position of spaces and line breaks might also be different.
 I would like to further discuss with you and search for new methods to deal with the complex and not-that-structurized bibcodes.
-2) A method to detect non-unicode characters in author names. 
 
