@@ -1,5 +1,5 @@
 ## Introduction
-Here stores my contributions (currently task 3) around Wikidata's project #4:
+Here stores my contributions around Wikidata's project #4:
 _"What's in a name? Automatically identifying first and last author names for Wikicite and Wikidata"._
 
 
