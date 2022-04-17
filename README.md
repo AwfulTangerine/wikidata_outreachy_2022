@@ -7,8 +7,14 @@ If there are any issues or new features to be developed, we can discuss through 
 - Zulip message & Email: awfultangerine@gmail.com
 - Linkedin: https://www.linkedin.com/in/jiehuima/
 
+## Contribution 1
+I designed functions using Pywikibot to:
+- Link to article selection Wikidata page;
+- Print out author names as strings and other related information (e.g. serial numbers).
 
-## Task 3 contributions
+Through this script, we can automatically get all author first & last name information for a scientific article stored in Wikidata by  inputting the Q number of article item pages.
+
+## Contribution 2
 For this task (https://phabricator.wikimedia.org/T301737), I designed functions to:
 - Automatically get bibcode for astronomical scientific articles;
   - If the 'ADS bibcode' identifier already on item page, generate urls based on the bibcode;
